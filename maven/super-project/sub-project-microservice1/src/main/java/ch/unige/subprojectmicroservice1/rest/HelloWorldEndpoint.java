@@ -7,11 +7,11 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Produces;
 
 
-@Path("/hello")
+@Path("/hello1")
 public class HelloWorldEndpoint {
     @GET
     @Produces("text/plain")
     public Response doGet() {
-        return Response.ok("Hello from Thorntail!").build();
+        return Response.ok("Hello from Subproject 1!").build();
     }
 }
