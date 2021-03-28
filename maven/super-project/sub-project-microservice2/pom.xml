@@ -16,7 +16,7 @@
 
   <name>Thorntail Example</name>
 
-  <properties>
+  <properties> <!-- overrides super pom properties -->
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
@@ -26,6 +26,8 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
 
     <version.thorntail>2.7.0.Final</version.thorntail>
+
+    <skip-docker-build>false</skip-docker-build> <!-- false -->
   </properties>
 
   <dependencyManagement>
