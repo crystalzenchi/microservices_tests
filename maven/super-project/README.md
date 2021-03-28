@@ -1,5 +1,8 @@
+# Informations
+We follow [Maven exercise](https://github.com/PInfo-2020/Exercises/tree/master/maven) for pinfo course at University of Geneva
+
+* [Maven quick tutorial](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 # Build
-Following [Maven exercise](https://github.com/PInfo-2020/Exercises/tree/master/maven) for pinfo course at University of Geneva
 
 ## Build the project
 At the root of the super-project, where the Super Pom is:
