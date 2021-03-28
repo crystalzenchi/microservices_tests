@@ -18,7 +18,7 @@ To package the modules into Docker images, we have to edit the pom.xml for the m
 ```
 mvn install -Ppackage-docker-image
 ```
-**Note: ** if errors, need to make sure the docker daemon is active either by checking with `ps -a` if `dockerd` is there. If not, run `sudo dockerd`.
+**Note:** if errors, need to make sure the docker daemon is active either by checking with `ps -a` if `dockerd` is there. If not, run `sudo dockerd`.
 
 
 # Thorntail
