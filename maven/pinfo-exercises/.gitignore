@@ -1,0 +1,8 @@
+# macOs specific.
+*.DS_Store
+
+# Docker specific.
+*docker.key
+
+# Targets.
+*target/
